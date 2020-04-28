@@ -1,0 +1,13 @@
+# 端口号
+server:
+  port: 8765
+# 配置应用程序名称
+spring:
+  application:
+    name: consume
+
+# eureka配置 客户端配置，注册到服务中心
+eureka:
+  client:
+    service-url:
+      url: http://localhost:8761/eureka/
